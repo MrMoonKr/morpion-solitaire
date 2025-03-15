@@ -1,10 +1,12 @@
 #ifndef _UI_H
 #define _UI_H
+
 /**
  * User Interface module
  * 
  * @author Gaetan Renaudeau <pro@grenlibre.fr>
  */
+
 #include "game.h"
 
 /**
