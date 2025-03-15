@@ -25,4 +25,9 @@ add_executable( solitaire
     utils.h utils.c
 )
 
+add_executable( particles 
+    ./src/particles.cpp
+)
+
 target_link_libraries( solitaire ${CURSES_LIBRARIES} )
+target_link_libraries( particles ${CURSES_LIBRARIES} )
