@@ -1,6 +1,7 @@
 #include <string.h>
 #include <stdlib.h>
-#include <curses.h>
+//#include <curses.h>
+#include <ncurses/ncurses.h> // pacman -S mingw-w64-ucrt-x86_64-ncurses 설치 필요
 
 #include "ui.h"
 #include "game.h"

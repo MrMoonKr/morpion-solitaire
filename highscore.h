@@ -1,5 +1,6 @@
 #ifndef _HIGHSCORE_H
 #define _HIGHSCORE_H
+
 /**
  * Highscore module
  * @author Gaetan Renaudeau <pro@grenlibre.fr>
