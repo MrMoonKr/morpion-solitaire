@@ -31,3 +31,14 @@ add_executable( particles
 
 target_link_libraries( solitaire ${CURSES_LIBRARIES} )
 target_link_libraries( particles ${CURSES_LIBRARIES} )
+
+add_executable( windowing 
+    ./src/windowing.cpp
+)
+target_link_libraries( windowing ${CURSES_LIBRARIES} )
+
+add_executable( window-resize 
+    ./src/window-resize.cpp
+)
+target_link_libraries( window-resize ${CURSES_LIBRARIES} )
+

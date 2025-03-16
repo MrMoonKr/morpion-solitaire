@@ -133,7 +133,7 @@ int main(int argc, char *argv[])
 
                 attron(A_BOLD);
                 attron(COLOR_PAIR(pair));
-                mvprintw((int)i->y, (int)i->x * 2, "()");
+                mvprintw((int)i->y, (int)i->x * 2, "*");
                 attroff(COLOR_PAIR(pair));
                 attroff(A_BOLD);
             }
@@ -153,7 +153,7 @@ int main(int argc, char *argv[])
         attron(COLOR_PAIR(4));
         if (display & 1)
         {
-            mvprintw((int)originY, (int)originX * 2, "<>");
+            mvprintw((int)originY, (int)originX * 2, "<@>");
         }
         if (display & 2)
         {
